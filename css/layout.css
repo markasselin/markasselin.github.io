@@ -600,6 +600,12 @@ ul#nav li.current a { color: #F06000; }
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
+
+#papers h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 #papers h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
@@ -626,19 +632,19 @@ ul#nav li.current a { color: #F06000; }
 /* g. Call To Action Section
 /* ------------------------------------------------------------------ */
 
-#call-to-action {
+#contact-me {
    background: #212121;
    padding-top: 66px;
-   padding-bottom: 48px;
+   padding-bottom: 20px;
 }
-#call-to-action h1 {
+#contact-me h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
 }
-#call-to-action h1 span { display: none; }
-#call-to-action .header-col h1:before {
+#contact-me h1 span { display: none; }
+#contact-me .header-col h1:before {
    font-family: 'FontAwesome';
    content: "\f0ac";
 	padding-right: 10px;
@@ -648,33 +654,33 @@ ul#nav li.current a { color: #F06000; }
    float: left;
    color: #fff;
 }
-#call-to-action .action {
+#contact-me .action {
    margin-top: 12px;
 }
-#call-to-action h2 {
+#contact-me h2 {
    font: 28px/36px 'opensans-bold', sans-serif;
    color: #EBEEEE;
    margin-bottom: 6px;
 }
-#call-to-action h2 a {
+#contact-me h2 a {
    color: inherit;
 }
-#call-to-action p {
+#contact-me p {
    color: #636363;
    font-size: 17px;
 }
 /*#
-call-to-action .button {
+contact-me .button {
 	color:#fff;
    background: #0D0D0D;
 }
 */
-#call-to-action .button:hover,
-#call-to-action .button:active {
+#contact-me .button:hover,
+#contact-me .button:active {
    background: #FFFFFF;
    color: #0D0D0D;
 }
-#call-to-action p span {
+#contact-me p span {
 	font-family: 'opensans-semibold', sans-serif; 
 	color: #D8D8D8;
 }
